@@ -1,0 +1,115 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "CashCow.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "CommonBase": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CashCow.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CashCow.Contracts.dll": {}
+        }
+      },
+      "CommonBase/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/CommonBase.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommonBase.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CashCow.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../CashCow.Contracts/CashCow.Contracts.csproj",
+      "msbuildProject": "../CashCow.Contracts/CashCow.Contracts.csproj"
+    },
+    "CommonBase/1.0.0": {
+      "type": "project",
+      "path": "../CommonBase/CommonBase.csproj",
+      "msbuildProject": "../CommonBase/CommonBase.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "CashCow.Contracts >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\jonas\\.nuget\\packages\\": {},
+    "D:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCow\\CashCow.Logic\\CashCow.Logic.csproj",
+      "projectName": "CashCow.Logic",
+      "projectPath": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCow\\CashCow.Logic\\CashCow.Logic.csproj",
+      "packagesPath": "C:\\Users\\jonas\\.nuget\\packages\\",
+      "outputPath": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCow\\CashCow.Logic\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\jonas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCow\\CashCow.Contracts\\CashCow.Contracts.csproj": {
+              "projectPath": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCow\\CashCow.Contracts\\CashCow.Contracts.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

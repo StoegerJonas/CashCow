@@ -1,0 +1,15 @@
+D:\4BHIF\PROO_Gehrer\Framework\CashCow\CashCow\CashCow.Contracts\bin\Debug\net5.0\CashCow.Contracts.deps.json
+D:\4BHIF\PROO_Gehrer\Framework\CashCow\CashCow\CashCow.Contracts\bin\Debug\net5.0\CashCow.Contracts.dll
+D:\4BHIF\PROO_Gehrer\Framework\CashCow\CashCow\CashCow.Contracts\bin\Debug\net5.0\ref\CashCow.Contracts.dll
+D:\4BHIF\PROO_Gehrer\Framework\CashCow\CashCow\CashCow.Contracts\bin\Debug\net5.0\CashCow.Contracts.pdb
+D:\4BHIF\PROO_Gehrer\Framework\CashCow\CashCow\CashCow.Contracts\bin\Debug\net5.0\CommonBase.dll
+D:\4BHIF\PROO_Gehrer\Framework\CashCow\CashCow\CashCow.Contracts\bin\Debug\net5.0\CommonBase.pdb
+D:\4BHIF\PROO_Gehrer\Framework\CashCow\CashCow\CashCow.Contracts\obj\Debug\net5.0\CashCow.Contracts.csprojAssemblyReference.cache
+D:\4BHIF\PROO_Gehrer\Framework\CashCow\CashCow\CashCow.Contracts\obj\Debug\net5.0\CashCow.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\4BHIF\PROO_Gehrer\Framework\CashCow\CashCow\CashCow.Contracts\obj\Debug\net5.0\CashCow.Contracts.AssemblyInfoInputs.cache
+D:\4BHIF\PROO_Gehrer\Framework\CashCow\CashCow\CashCow.Contracts\obj\Debug\net5.0\CashCow.Contracts.AssemblyInfo.cs
+D:\4BHIF\PROO_Gehrer\Framework\CashCow\CashCow\CashCow.Contracts\obj\Debug\net5.0\CashCow.Contracts.csproj.CoreCompileInputs.cache
+D:\4BHIF\PROO_Gehrer\Framework\CashCow\CashCow\CashCow.Contracts\obj\Debug\net5.0\CashCow.Contracts.csproj.CopyComplete
+D:\4BHIF\PROO_Gehrer\Framework\CashCow\CashCow\CashCow.Contracts\obj\Debug\net5.0\CashCow.Contracts.dll
+D:\4BHIF\PROO_Gehrer\Framework\CashCow\CashCow\CashCow.Contracts\obj\Debug\net5.0\ref\CashCow.Contracts.dll
+D:\4BHIF\PROO_Gehrer\Framework\CashCow\CashCow\CashCow.Contracts\obj\Debug\net5.0\CashCow.Contracts.pdb
