@@ -1,4 +1,5 @@
 ﻿//@BaseCode
+using CashCow.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CashCow.Logic.Entities
 {
-    partial class IdentityEntity : Contracts.IIdentifiable
+    internal abstract partial class IdentityEntity : IIdentifiable
     {
         public int Id { get; set; }
     }

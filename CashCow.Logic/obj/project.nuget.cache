@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "JiuzWhUjrKHGHahvTyBafdpRVUfjSgskqJWLbxR3Vv1+yyOvoV/wjhwO8Pis0ioH3MOa3KX21/bDsjYUeHlFgA==",
+  "dgSpecHash": "NYRxb7kxBRwUT+Ico2Ko1QP2Sef8701717JOXLZSYlFy1WM6/hyTOapPcGijuCFm20wgXSesuiEe+jRuNS/xsA==",
   "success": true,
-  "projectFilePath": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCow\\CashCow.Logic\\CashCow.Logic.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCowGithub\\CashCow\\CashCow.Logic\\CashCow.Logic.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jonas\\.nuget\\packages\\system.linq.dynamic.core\\1.2.8\\system.linq.dynamic.core.1.2.8.nupkg.sha512"
+  ],
   "logs": []
 }

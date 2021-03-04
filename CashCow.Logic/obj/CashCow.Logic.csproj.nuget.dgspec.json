@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCow\\CashCow.Logic\\CashCow.Logic.csproj": {}
+    "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCowGithub\\CashCow\\CashCow.Logic\\CashCow.Logic.csproj": {}
   },
   "projects": {
-    "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCow\\CashCow.Contracts\\CashCow.Contracts.csproj": {
+    "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCowGithub\\CashCow\\CashCow.Contracts\\CashCow.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCow\\CashCow.Contracts\\CashCow.Contracts.csproj",
+        "projectUniqueName": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCowGithub\\CashCow\\CashCow.Contracts\\CashCow.Contracts.csproj",
         "projectName": "CashCow.Contracts",
-        "projectPath": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCow\\CashCow.Contracts\\CashCow.Contracts.csproj",
+        "projectPath": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCowGithub\\CashCow\\CashCow.Contracts\\CashCow.Contracts.csproj",
         "packagesPath": "C:\\Users\\jonas\\.nuget\\packages\\",
-        "outputPath": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCow\\CashCow.Contracts\\obj\\",
+        "outputPath": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCowGithub\\CashCow\\CashCow.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\",
@@ -33,8 +33,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCow\\CommonBase\\CommonBase.csproj": {
-                "projectPath": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCow\\CommonBase\\CommonBase.csproj"
+              "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCowGithub\\CashCow\\CommonBase\\CommonBase.csproj": {
+                "projectPath": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCowGithub\\CashCow\\CommonBase\\CommonBase.csproj"
               }
             }
           }
@@ -67,14 +67,14 @@
         }
       }
     },
-    "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCow\\CashCow.Logic\\CashCow.Logic.csproj": {
+    "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCowGithub\\CashCow\\CashCow.Logic\\CashCow.Logic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCow\\CashCow.Logic\\CashCow.Logic.csproj",
+        "projectUniqueName": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCowGithub\\CashCow\\CashCow.Logic\\CashCow.Logic.csproj",
         "projectName": "CashCow.Logic",
-        "projectPath": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCow\\CashCow.Logic\\CashCow.Logic.csproj",
+        "projectPath": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCowGithub\\CashCow\\CashCow.Logic\\CashCow.Logic.csproj",
         "packagesPath": "C:\\Users\\jonas\\.nuget\\packages\\",
-        "outputPath": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCow\\CashCow.Logic\\obj\\",
+        "outputPath": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCowGithub\\CashCow\\CashCow.Logic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\",
@@ -96,8 +96,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCow\\CashCow.Contracts\\CashCow.Contracts.csproj": {
-                "projectPath": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCow\\CashCow.Contracts\\CashCow.Contracts.csproj"
+              "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCowGithub\\CashCow\\CashCow.Contracts\\CashCow.Contracts.csproj": {
+                "projectPath": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCowGithub\\CashCow\\CashCow.Contracts\\CashCow.Contracts.csproj"
               }
             }
           }
@@ -111,6 +111,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.2.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -130,14 +136,14 @@
         }
       }
     },
-    "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCow\\CommonBase\\CommonBase.csproj": {
+    "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCowGithub\\CashCow\\CommonBase\\CommonBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCow\\CommonBase\\CommonBase.csproj",
+        "projectUniqueName": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCowGithub\\CashCow\\CommonBase\\CommonBase.csproj",
         "projectName": "CommonBase",
-        "projectPath": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCow\\CommonBase\\CommonBase.csproj",
+        "projectPath": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCowGithub\\CashCow\\CommonBase\\CommonBase.csproj",
         "packagesPath": "C:\\Users\\jonas\\.nuget\\packages\\",
-        "outputPath": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCow\\CommonBase\\obj\\",
+        "outputPath": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCowGithub\\CashCow\\CommonBase\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\",

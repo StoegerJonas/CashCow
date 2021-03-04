@@ -1,4 +1,5 @@
 ﻿//@BaseCode
+using CashCow.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CashCow.Logic.Entities
 {
-    partial class VersionEntity : IdentityEntity, Contracts.IVersionable
+    internal abstract partial class VersionEntity : IdentityEntity, IVersionable
     {
         public byte[] RowVersion { get; set; }
     }

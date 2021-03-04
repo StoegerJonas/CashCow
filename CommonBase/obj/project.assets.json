@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCow\\CommonBase\\CommonBase.csproj",
+      "projectUniqueName": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCowGithub\\CashCow\\CommonBase\\CommonBase.csproj",
       "projectName": "CommonBase",
-      "projectPath": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCow\\CommonBase\\CommonBase.csproj",
+      "projectPath": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCowGithub\\CashCow\\CommonBase\\CommonBase.csproj",
       "packagesPath": "C:\\Users\\jonas\\.nuget\\packages\\",
-      "outputPath": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCow\\CommonBase\\obj\\",
+      "outputPath": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCowGithub\\CashCow\\CommonBase\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft\\Xamarin\\NuGet\\",

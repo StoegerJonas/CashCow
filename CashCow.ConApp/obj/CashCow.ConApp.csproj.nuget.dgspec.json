@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCowGithub\\CashCow\\CommonBase\\CommonBase.csproj": {}
+    "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCowGithub\\CashCow\\CashCow.ConApp\\CashCow.ConApp.csproj": {}
   },
   "projects": {
-    "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCowGithub\\CashCow\\CommonBase\\CommonBase.csproj": {
+    "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCowGithub\\CashCow\\CashCow.ConApp\\CashCow.ConApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCowGithub\\CashCow\\CommonBase\\CommonBase.csproj",
-        "projectName": "CommonBase",
-        "projectPath": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCowGithub\\CashCow\\CommonBase\\CommonBase.csproj",
+        "projectUniqueName": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCowGithub\\CashCow\\CashCow.ConApp\\CashCow.ConApp.csproj",
+        "projectName": "CashCow.ConApp",
+        "projectPath": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCowGithub\\CashCow\\CashCow.ConApp\\CashCow.ConApp.csproj",
         "packagesPath": "C:\\Users\\jonas\\.nuget\\packages\\",
-        "outputPath": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCowGithub\\CashCow\\CommonBase\\obj\\",
+        "outputPath": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCowGithub\\CashCow\\CashCow.ConApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\",
@@ -23,15 +23,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -42,8 +42,16 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

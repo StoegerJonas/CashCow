@@ -10,6 +10,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.2.8" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\CashCow.Contracts\CashCow.Contracts.csproj" />
   </ItemGroup>
 

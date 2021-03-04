@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "System.Linq.Dynamic.Core/1.2.8": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp2.1/System.Linq.Dynamic.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/System.Linq.Dynamic.Core.dll": {}
+        }
+      },
       "CashCow.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -28,6 +37,42 @@
     }
   },
   "libraries": {
+    "System.Linq.Dynamic.Core/1.2.8": {
+      "sha512": "pt/p0YRKysUIwf/ihyVOftcITaQYBXQt/BxUfezsR/d7iXRDhYBwg+iYnL4zxX5i1qXVG0C/dwnmroWblmdH5A==",
+      "type": "package",
+      "path": "system.linq.dynamic.core/1.2.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/System.Linq.Dynamic.Core.dll",
+        "lib/net35/System.Linq.Dynamic.Core.pdb",
+        "lib/net35/System.Linq.Dynamic.Core.xml",
+        "lib/net40/System.Linq.Dynamic.Core.dll",
+        "lib/net40/System.Linq.Dynamic.Core.pdb",
+        "lib/net40/System.Linq.Dynamic.Core.xml",
+        "lib/net45/System.Linq.Dynamic.Core.dll",
+        "lib/net45/System.Linq.Dynamic.Core.pdb",
+        "lib/net45/System.Linq.Dynamic.Core.xml",
+        "lib/net46/System.Linq.Dynamic.Core.dll",
+        "lib/net46/System.Linq.Dynamic.Core.pdb",
+        "lib/net46/System.Linq.Dynamic.Core.xml",
+        "lib/netcoreapp2.1/System.Linq.Dynamic.Core.dll",
+        "lib/netcoreapp2.1/System.Linq.Dynamic.Core.pdb",
+        "lib/netcoreapp2.1/System.Linq.Dynamic.Core.xml",
+        "lib/netstandard1.3/System.Linq.Dynamic.Core.dll",
+        "lib/netstandard1.3/System.Linq.Dynamic.Core.pdb",
+        "lib/netstandard1.3/System.Linq.Dynamic.Core.xml",
+        "lib/netstandard2.0/System.Linq.Dynamic.Core.dll",
+        "lib/netstandard2.0/System.Linq.Dynamic.Core.pdb",
+        "lib/netstandard2.0/System.Linq.Dynamic.Core.xml",
+        "lib/uap10.0.10240/System.Linq.Dynamic.Core.dll",
+        "lib/uap10.0.10240/System.Linq.Dynamic.Core.pdb",
+        "lib/uap10.0.10240/System.Linq.Dynamic.Core.pri",
+        "lib/uap10.0.10240/System.Linq.Dynamic.Core.xml",
+        "system.linq.dynamic.core.1.2.8.nupkg.sha512",
+        "system.linq.dynamic.core.nuspec"
+      ]
+    },
     "CashCow.Contracts/1.0.0": {
       "type": "project",
       "path": "../CashCow.Contracts/CashCow.Contracts.csproj",
@@ -41,7 +86,8 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "CashCow.Contracts >= 1.0.0"
+      "CashCow.Contracts >= 1.0.0",
+      "System.Linq.Dynamic.Core >= 1.2.8"
     ]
   },
   "packageFolders": {
@@ -52,11 +98,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCow\\CashCow.Logic\\CashCow.Logic.csproj",
+      "projectUniqueName": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCowGithub\\CashCow\\CashCow.Logic\\CashCow.Logic.csproj",
       "projectName": "CashCow.Logic",
-      "projectPath": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCow\\CashCow.Logic\\CashCow.Logic.csproj",
+      "projectPath": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCowGithub\\CashCow\\CashCow.Logic\\CashCow.Logic.csproj",
       "packagesPath": "C:\\Users\\jonas\\.nuget\\packages\\",
-      "outputPath": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCow\\CashCow.Logic\\obj\\",
+      "outputPath": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCowGithub\\CashCow\\CashCow.Logic\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft\\Xamarin\\NuGet\\",
@@ -78,8 +124,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCow\\CashCow.Contracts\\CashCow.Contracts.csproj": {
-              "projectPath": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCow\\CashCow.Contracts\\CashCow.Contracts.csproj"
+            "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCowGithub\\CashCow\\CashCow.Contracts\\CashCow.Contracts.csproj": {
+              "projectPath": "D:\\4BHIF\\PROO_Gehrer\\Framework\\CashCow\\CashCowGithub\\CashCow\\CashCow.Contracts\\CashCow.Contracts.csproj"
             }
           }
         }
@@ -93,6 +139,12 @@
     "frameworks": {
       "net5.0": {
         "targetAlias": "net5.0",
+        "dependencies": {
+          "System.Linq.Dynamic.Core": {
+            "target": "Package",
+            "version": "[1.2.8, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
